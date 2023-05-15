@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai_1</title>
+</head>
+<body>
+    <h2>Đăng kí mua xe ô tô</h2>
+    <form action="" method="post">
+        <label for="name">Họ và tên</label>
+        <input type="text" name="" id="name" placeholder="Tên của bạn"><br>
+        <label for="">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email của anh"><br>
+        <label for="phone"> Sô điện thoại</label>
+        <input type="text" name="phone" id="phone" placeholder="Số điện thoại của bạn"><br>
+        <label for="txt_car">Xe ô tô muốn mua</label>
+        <input type="text" id="txt_car" list="cars" placeholder="Mẫu xe"/><br>
+        <datalist id="cars">
+            <option value="Mazda" />
+            <option value="Toyota" />
+            <option value="Mercedes-benz" />
+            <option value="Espresso" />
+            <option value="Lexus" />
+            <option value="Ford" />
+        </datalist>
+        
+        <label for="mes">Lời nhắn</label>
+        <textarea name="mes" id="mes" cols="30" rows="2"></textarea><br>
+        <label for="">Màu xe</label>
+        <select name="" id="">
+            <option>Đỏ</option>
+            <option>Đen</option>
+            <option>Trắng</option>
+            <option>Vàng</option>
+            <option>Xanh</option>
+        </select>
+        <fieldset>
+            <legend>Phương thức thanh toán</legend>
+        <input type="radio" name="card" id="card"><label for="card">Thẻ tín dụng</label><br>
+        <input type="radio" name="bank" id="bank"><label for="bank">Chuyển khoản ngân hàng</label>
+        </fieldset>
+        <label for="check">Tôi đồng ý với các điều khoản :</label>
+        <input type="checkbox" name="check" id="check"><br>
+        <button type="submit">Gửi</button>
+    </form>
+</body>
+</html>

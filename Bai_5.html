@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bài 5</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <h1>Quản lý tòa nhà chung cư</h1>
+        <nav>
+            <ul>
+                <li><a href="">Trang chủ</a></li>
+                <li><a href="">Danh sách căn hộ</a></li>
+                <li><a href="">Thêm căn hộ</a></li>
+                <li><a href="">Thông tin tòa nhà</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- LIST-->
+    <section>
+        <h2>Danh sách căn hộ</h2>
+        <table border="1">
+            <tr>
+                <th>Số căn hộ</th>
+                <th>Diện tích</th>
+                <th>SỐ phòng ngủ</th>
+                <th>Số Phòng tắm</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>80m <sub>2</sub></td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>90m <sub>2</sub></td>
+                <td>3</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>201</td>
+                <td>70m <sub>2</sub></td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- ADD LIST -->
+    <section>
+        <h2>Thêm căn hộ mới</h2>
+        <form action="#" method="post">
+            <label for="home">Sô căn hộ: </label>
+            <input type="text" name="home" id="home"><br>
+            <label for="area">Diện tích: </label>
+            <input type="text" name="area" id="area"><br>
+            <label for="bedroom"> Số Phòng Ngủ: </label>
+            <input type="text" name="bedroom" id="bedroom"><br>
+            <label for="bathroom">Sô Phòng Tắm: </label>
+            <input type="text" name="bathroom" id="bathroom"><br>
+            <button type="submit">Thêm</button>
+        </form>
+    </section>
+
+    <!-- INFORMATION -->
+    <section>
+        <aside>
+            <h3>Thông tin tòa nhà</h3>
+            <p>Địa chỉ: 123 đường ABC, Quận XYZ, Thành Phố ABC</p>
+            <p>Số tầng: 10 </p>
+            <p>Tổng sô căn hộ: 50</p>
+        </aside>
+    </section>
+
+    <!-- FOOTER -->
+    <footer><p>&#169;2023 Quản lý bởi Bùi Văn Vụ</p></footer>
+    <style>
+        nav ul li{
+            display: inline;
+        }
+    </style>
+</body>
+</html>
